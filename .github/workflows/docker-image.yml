@@ -22,6 +22,6 @@ jobs:
     
     - name: Build the Docker image
       run: |
-        docker build . --file Dockerfile --tag my-image-name:latest
-        docker run ghcr.io/jonashackt/hello-world:latest
+        docker build . --file Dockerfile --tag ghcr.io/pbharambe/my-image-name:latest
+        docker run ghcr.io/pbharambe/hello-world:latest
         docker push ghcr.io/pbharambe/my-image-name:latest
