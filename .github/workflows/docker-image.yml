@@ -25,4 +25,5 @@ jobs:
         docker build . --file Dockerfile --tag ghcr.io/pbharambe/my-image-name:latest
         docker push ghcr.io/pbharambe/my-image-name:latest
         docker pull ghcr.io/pbharambe/my-image-name:latest
+        docker run ghcr.io/pbharambe/my-image-name:latest
         
